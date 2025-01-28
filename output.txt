@@ -1,0 +1,67 @@
+
+ count of palindromes for string  , 0
+
+ count of palindromes for string a , 1
+a
+
+ count of palindromes for string aa , 2
+aa
+a
+
+ count of palindromes for string abc , 3
+c
+b
+a
+
+ count of palindromes for string aaaa , 4
+aaaa
+aaa
+aa
+a
+
+ count of palindromes for string abacdfgdcaba , 7
+g
+c
+b
+f
+aba
+d
+a
+
+ count of palindromes for string ab , 2
+b
+a
+
+ count of palindromes for string ababa , 5
+b
+bab
+ababa
+aba
+a
+
+ count of palindromes for string abcba , 5
+c
+bcb
+b
+abcba
+a
+
+ count of palindromes for string abcde , 5
+e
+c
+b
+d
+a
+
+ count of palindromes for string abcdcba , 7
+c
+cdc
+b
+bcdcb
+abcdcba
+d
+a
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
