@@ -2,6 +2,7 @@
 #include <string>
 #include <unordered_set>
 #include <cassert>
+#include <chrono>
 
 using namespace std;
 
@@ -19,6 +20,8 @@ bool isPalindrome(const string& s, int start, int end) {
 
 // Function to print all unique palindromic substrings
 int countPalindromicSubstrings(const string& s) {
+    auto start = std::chrono::high_resolution_clock::now();
+
     int n = s.length();
     unordered_set<string> palindromes;  // Set to store unique palindromes
 
@@ -38,7 +41,11 @@ int countPalindromicSubstrings(const string& s) {
     for (const auto& palindrome : palindromes) {
         cout << palindrome << endl;
     }
-
+    auto end = std::chrono::high_resolution_clock::now();
+    
+    std::chrono::duration<double> diff = end - start;
+    std::cout << "\n Time Taken : " << diff.count();
+    
     return palindromes.size();
 }
 
