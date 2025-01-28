@@ -34,7 +34,7 @@ int countPalindromicSubstrings(const string& s) {
     }
 
     // Print all unique palindromes
-    std::cout << "\n count of palindromes for string " << s << palindromes.size() << std::endl;
+    std::cout << "\n count of palindromes for string " << s << " , " <<  palindromes.size() << std::endl;
     for (const auto& palindrome : palindromes) {
         cout << palindrome << endl;
     }
