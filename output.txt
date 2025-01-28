@@ -1,24 +1,28 @@
+count of palindromes for string  , 0
 
- count of palindromes for string  , 0
-
+ Time Taken : 3.3614e-05
  count of palindromes for string a , 1
 a
 
+ Time Taken : 1.1407e-05
  count of palindromes for string aa , 2
 aa
 a
 
+ Time Taken : 1.1989e-05
  count of palindromes for string abc , 3
 c
 b
 a
 
+ Time Taken : 4.4403e-05
  count of palindromes for string aaaa , 4
 aaaa
 aaa
 aa
 a
 
+ Time Taken : 2.0677e-05
  count of palindromes for string abacdfgdcaba , 7
 g
 c
@@ -28,10 +32,12 @@ aba
 d
 a
 
+ Time Taken : 2.9387e-05
  count of palindromes for string ab , 2
 b
 a
 
+ Time Taken : 6.82e-06
  count of palindromes for string ababa , 5
 b
 bab
@@ -39,6 +45,7 @@ ababa
 aba
 a
 
+ Time Taken : 1.2377e-05
  count of palindromes for string abcba , 5
 c
 bcb
@@ -46,6 +53,7 @@ b
 abcba
 a
 
+ Time Taken : 1.6153e-05
  count of palindromes for string abcde , 5
 e
 c
@@ -53,6 +61,7 @@ b
 d
 a
 
+ Time Taken : 2.4741e-05
  count of palindromes for string abcdcba , 7
 c
 cdc
@@ -62,6 +71,7 @@ abcdcba
 d
 a
 
+ Time Taken : 2.9323e-05
 
 ...Program finished with exit code 0
 Press ENTER to exit console.
